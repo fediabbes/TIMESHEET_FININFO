@@ -1,0 +1,137 @@
+.content-wrapper {
+    /* background: #013944; */
+    background: #ffffff;
+}
+
+/* .sidebar{
+    background-color: #ffffff;
+} */
+
+/* .sidebar .nav .nav-item .nav-link .menu-title{
+    color: rgb(10, 2, 58);
+} */
+
+
+/* .grid-margin, .proBanner .purchase-popup {
+    margin-bottom: 1.5rem;
+    position: absolute;
+    top: 9.3%;
+    left: 17.2%;
+    width: 70.5rem;
+} */
+
+
+.table th, .table td {
+    color: aliceblue;
+}
+
+.card {
+    background-color: #013944;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 101%;
+    pointer-events: auto;
+    background-color: #022c35;
+    background-clip: padding-box;
+    /* border: 1px solid #2c2e33; */
+    border-radius: 1.3rem;
+    outline: 0;
+}
+
+.form-control {
+    border: none;
+    height: calc(2.25rem + 2px);
+    font-weight: normal;
+    font-size: 0.875rem;
+    padding: 0.625rem 0.6875rem;
+    background-color: #ebebeb;
+    border-radius: 2px;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.form-control:focus{
+    background-color: #dddbdb;
+    cursor: pointer;
+}
+.preview-list .preview-item .preview-item-content p {
+    margin-bottom: 10px;
+    line-height: 3;
+}
+
+.col-form-label {
+    font-family: inherit;
+    letter-spacing: 2px;
+}
+
+.row{
+    margin-top: 14px;
+}
+
+
+#userPic{
+    position: absolute;
+    left: 1%;
+    top: -6%;
+    width: 9rem;
+}
+
+#postePic{
+    position: absolute;
+    left: 75%;
+    top: 61%;
+    width: 10rem;
+}
+
+
+.card .card-title {
+    margin-left: 11rem;
+    margin-top: -18px;
+    font-size: 29px;
+    letter-spacing: 10px;
+    color: cornflowerblue;
+}
+
+/* #profileEditBtn{
+    top: 18%;
+    left: 84%;
+    position: absolute;
+} */
+
+    
+.ProfileDivBtns{
+    display: flex;
+    width: 8rem;
+    position: absolute;
+    height: 6rem;
+    top: 16%;
+    left: 84%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.MuiPaper-rounded{
+    border-radius: 16px;
+    margin-top: 65px;
+}
+
+#header {
+    color: #01579b;
+    font-size: 27px;
+    margin: 0px 1px -4px 65px;
+}
+
+#addbtn{
+    width: 12rem;
+    border-radius: 14px;
+    padding: 8px;
+    margin-right: 2px;
+    margin-top: 28px;
+    margin-bottom: -30px;
+}
